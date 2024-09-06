@@ -28,11 +28,13 @@ console.log(`\nThe herd is made of up the following cattle (only their breed is 
 console.log(`${cattle}\n`)
 
 console.log("Here is the team of drovers you will be joining")
+//iterates through the drovers array and console.logs the value of the first_name and last_name keys for each item in the array
 for (const drover of drovers) {
     console.log(`\t* ${drover.first_name} ${drover.last_name}`)
 }
 
 console.log("\n\nYour journey will take you through the wildness of the American Midwest and across the following terrain")
+//iterates through the journey array and console.logs each item in the array
 for (const area of journey) {
     console.log(`\t* ${area}`)
 }
